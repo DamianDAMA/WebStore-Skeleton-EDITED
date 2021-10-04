@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b888da37-3423-4cbd-be8d-84d8f7da6f67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fx/controllers/items/FXMLAddItemsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/items/FXMLAddItems.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b888da37-3423-4cbd-be8d-84d8f7da6f67" name="Changes" comment="Initial commit: Skeleton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fx/controllers/FXMLPrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/controllers/FXMLPrincipalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/FXMLPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/FXMLPrincipal.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/items/FXMLListItems.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/items/FXMLListItems.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fx/controllers/items/FXMLAddItemsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/controllers/items/FXMLAddItemsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/items/FXMLAddItems.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/items/FXMLAddItems.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/ConfigProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configuration/ConfigProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/CustomersDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ItemsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/PurchasesDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ReviewsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/controllers/FXMLPrincipalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fx/controllers/FXMLPrincipalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/controllers/purchases/FXMLPurchasesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fx/controllers/purchases/FXMLPurchasesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/FXMLPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/FXMLPrincipal.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/items/FXMLListItems.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/items/FXMLListItems.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/CustomersServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/CustomersServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/ItemsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/ItemsServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/PurchasesServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/PurchasesServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/ReviewsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/ReviewsServices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainFX" />
@@ -111,6 +109,8 @@
       <workItem from="1632243724119" duration="3108000" />
       <workItem from="1632247096574" duration="67000" />
       <workItem from="1632990296120" duration="1861000" />
+      <workItem from="1632995204157" duration="259000" />
+      <workItem from="1633335630351" duration="1304000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: Skeleton">
       <created>1632244318324</created>

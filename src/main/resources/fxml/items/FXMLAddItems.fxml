@@ -4,13 +4,12 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.items.FXMLAddItemsController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #eeeeee;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.controllers.items.FXMLAddItemsController">
    <children>
       <ListView fx:id="itemList" layoutX="29.0" layoutY="89.0" prefHeight="280.0" prefWidth="370.0" />
       <TextField fx:id="idBox" layoutX="427.0" layoutY="116.0" />
       <TextField fx:id="nameBox" layoutX="427.0" layoutY="170.0" />
-      <Button layoutX="441.0" layoutY="320.0" mnemonicParsing="false" onAction="#addItem" text="Save new item" />
+      <Button layoutX="441.0" layoutY="320.0" mnemonicParsing="false" onAction="#addItem" text="Añadir" />
       <Label layoutX="427.0" layoutY="95.0" text="Item Id" />
       <Label layoutX="427.0" layoutY="148.0" text="Name" />
       <Label layoutX="427.0" layoutY="204.0" text="Company" />
@@ -20,8 +19,8 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="phoneBox" layoutX="426.0" layoutY="225.0" />
+      <TextField fx:id="companyBox" layoutX="426.0" layoutY="225.0" />
       <Label layoutX="427.0" layoutY="256.0" text="Price" />
-      <TextField fx:id="addressBox" layoutX="426.0" layoutY="277.0" />
+      <TextField fx:id="priceBox" layoutX="426.0" layoutY="277.0" />
    </children>
 </AnchorPane>
